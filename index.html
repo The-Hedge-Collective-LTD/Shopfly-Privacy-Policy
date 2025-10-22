@@ -1,32 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy | The Hedge Collective</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Shopfly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .effective-date {
+            font-size: 1em;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 35px;
+            padding: 25px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #34495e;
+            line-height: 1.6;
+        }
+
+        strong {
+            color: #764ba2;
+            font-weight: 600;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.95em;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #ffd89b 0%, #19547b 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+        }
+    </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Last updated: October 2025</p>
-  <p>
-    1. Introduction
-      ShopFly (“the App”) provides product listing optimization services to merchants who use Shopify to power their stores.
-      This Privacy Policy describes how personal information is collected, used, and shared when you install or use the App in connection with your Shopify store.
-    </p>
-  <h2>Data Usage</h2>
-  <p>
-    We may collect product information, descriptions, and analytics data you choose to provide. 
-    This data is used only to generate optimized content and is not shared with third parties.
-  </p>
-  <h2>Third-Party Services</h2>
-  <p>
-    Our app may integrate with APIs (like OpenAI or ScrapingDog) to enhance functionality.
-    These services follow their own privacy policies, which we encourage you to review.
-  </p>
-  <h2>Contact Us</h2>
-  <p>
-    If you have questions about this Privacy Policy, please contact us at:
-    <a href="mailto:support@thehedgecollective.com">support@thehedgecollective.com</a>
-  </p>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy for ShopFly</h1>
+            <p class="effective-date"><strong>Effective Date:</strong> [Insert date here]</p>
+        </div>
+
+        <div class="content">
+            <section>
+                <h2>1. Introduction</h2>
+                <p>ShopFly ("the App") provides product listing optimization services to merchants who use Shopify to power their stores. This Privacy Policy describes how personal information is collected, used, and shared when you install or use the App in connection with your Shopify store.</p>
+            </section>
+
+            <section>
+                <h2>2. Information We Collect</h2>
+                <p>When you install the App, we are automatically able to access certain types of information from your Shopify account, in accordance with Shopify's API permissions model, including:</p>
+                <ul>
+                    <li>Store name and contact details</li>
+                    <li>Product listings and related metadata (titles, descriptions, tags, SEO fields, etc.)</li>
+                    <li>Store domain and Shopify ID</li>
+                </ul>
+                <p>We do <strong>not</strong> collect or process payment information, customer data, or order information.</p>
+            </section>
+
+            <section>
+                <h2>3. How We Use Your Information</h2>
+                <p>We use the information we collect to provide and improve the App's functionality, specifically to:</p>
+                <ul>
+                    <li>Analyze and optimize your product listings</li>
+                    <li>Suggest improvements for titles, descriptions, and SEO metadata</li>
+                    <li>Apply updates to your store's product listings as instructed by you</li>
+                    <li>Respond to your customer support requests</li>
+                </ul>
+                <p>We do not use your information for marketing or advertising purposes.</p>
+            </section>
+
+            <section>
+                <h2>4. Sharing Your Information</h2>
+                <ul>
+                    <li><strong>With Shopify:</strong> We share information with Shopify only to the extent necessary to provide our services and comply with Shopify's policies.</li>
+                    <li><strong>Third-Party Service Providers:</strong> We may use third-party services (such as product data scraping APIs) to generate optimization suggestions. These providers are given only the data needed to perform their task and are required to protect your information.</li>
+                    <li><strong>No sale or rental of information:</strong> We do not sell or rent your personal information to third parties.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Data Retention</h2>
+                <p>We retain your store and product data only as long as your store has the App installed or as needed to comply with legal obligations. On uninstallation, we remove store-identifying information from our systems within 30 days.</p>
+            </section>
+
+            <section>
+                <h2>6. Your Rights</h2>
+                <p>If you are a Shopify merchant, you have the right to access and update the personal information we hold about your store. You may also request deletion of your data by uninstalling the App.</p>
+            </section>
+
+            <section>
+                <h2>7. Changes to This Policy</h2>
+                <p>We may update this policy from time to time. Changes will be posted on this page with a revised "Effective Date."</p>
+            </section>
+
+            <section>
+                <h2>8. Contact Us</h2>
+                <p>For questions or concerns about this privacy policy or your data, please contact us at:</p>
+                <div class="contact-info">
+                    <strong>[Insert your email address or support contact here]</strong>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>© 2025 ShopFly — The Hedge Collective Ltd. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
